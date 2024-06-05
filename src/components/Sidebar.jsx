@@ -16,7 +16,9 @@ const Sidebar = () => {
 
   return (
     <div className="hidden md:block md:w-64 bg-white text-gray-700 p-4 shadow-lg">
-      <div className="text-2xl font-bold mb-6">Eduvacity</div>
+      <div className="text-2xl font-bold mb-10 mt-3">
+        <img src={'logo.png'} className='w-[70%]'/>
+      </div>
       <nav>
         {links.map((link) => (
           <a
